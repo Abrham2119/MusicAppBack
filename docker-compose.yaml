@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  myapp:
+    image: ubuntu:latest
+    container_name: myapp-container
+    working_dir: /app
+    command: bash
+  
